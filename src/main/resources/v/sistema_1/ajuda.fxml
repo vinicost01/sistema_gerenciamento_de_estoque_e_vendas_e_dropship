@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="273.0" prefWidth="454.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="v.sistema_1.Ajuda">
+   <children>
+      <TextArea editable="false" layoutX="1.0" prefHeight="273.0" prefWidth="454.0" text="sistema:&#10; Sistema criado para auxiliar a administração de lojas online, com foco em lojas de dropship, interface facil e intuitiva onde é possivel , vizualizar, editar, adicionar e remover os produtos (na opçao &quot;ver/editar/add/remover&quot;), adicionar produtos (na opçao &quot;adicionar&quot;), remover produtos (na opçao &quot;remover&quot;) e vizualizar e alterar calculos automaticos de gastos e lucros(na opcao &quot;financeiro&quot;). Todos oas dados ficam armazenados no seu banco de dados previamente configurado.&#10;Configuraçao do banco de dados:&#10;No menu de configuraçoes você encontra a opçao &quot;conectar banco de dados&quot;&#10;onde nela você deve antes de usar o sistema conectar o seu banco de dados, com a url, usuario e senha, o db ja deve ter uma tabela com o nome &quot;produtos contendo as seguintes colunas: &quot;id&quot;(primary key, int, auto increment), &quot;nome&quot;(varchar), &quot;url&quot;(varchar), &quot;val_c&quot; (double), &quot;val_v&quot;(double), &quot;uni_vend&quot;(int).&#10;&#10;                                                                                                                 © vini.cost" wrapText="true" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="427.0" prefWidth="621.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="v.sistema_1.finan">
+   <children>
+      <TextField fx:id="txtreceita" layoutX="395.0" layoutY="175.0" text="0" />
+      <TextField fx:id="txtgastos" layoutX="395.0" layoutY="234.0" text="0" />
+      <Label layoutX="385.0" layoutY="36.0" text="receita" textFill="#001694" />
+      <Label layoutX="456.0" layoutY="36.0" text="lucro" textFill="#009a00" />
+      <Label layoutX="518.0" layoutY="36.0" text="gastos" textFill="#c60000" />
+      <Label layoutX="452.0" layoutY="217.0" text="gastos" />
+      <Label fx:id="labreceita" layoutX="384.0" layoutY="58.0" text="00.00">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lablucro" layoutX="451.0" layoutY="58.0" text="00.00">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="labgastos" layoutX="517.0" layoutY="58.0" text="00.00">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="452.0" layoutY="158.0" text="receita" />
+      <Button layoutX="412.0" layoutY="319.0" mnemonicParsing="false" onAction="#atualizarfinan" prefHeight="34.0" prefWidth="117.0" text="atualizar" />
+      <TableView layoutX="-1.0" onMouseClicked="#slfnx" prefHeight="426.0" prefWidth="321.0" fx:id="xx">
+        <columns>
+            <TableColumn fx:id="nomefinan" prefWidth="132.0" text="nome" />
+          <TableColumn fx:id="rendaextra" prefWidth="97.0" text="receita extra" />
+          <TableColumn fx:id="gastosextra" prefWidth="91.0" text="gastos extras" />
+        </columns>
+      </TableView>
+      <Button layoutX="371.0" layoutY="279.0" mnemonicParsing="false" onAction="#addfinanx" text="adicionar" />
+      <Button layoutX="448.0" layoutY="279.0" mnemonicParsing="false" onAction="#editfinan" text="editar" />
+      <Button layoutX="508.0" layoutY="279.0" mnemonicParsing="false" onAction="#removfinax" text="remover" />
+      <TextArea fx:id="txtfin" editable="false" layoutX="379.0" layoutY="364.0" prefHeight="46.0" prefWidth="182.0" />
+      <TextField fx:id="idfinan" editable="false" layoutX="347.0" layoutY="120.0" prefHeight="25.0" prefWidth="27.0" />
+      <Label layoutX="357.0" layoutY="105.0" text="id" />
+      <TextField fx:id="nometx" layoutX="395.0" layoutY="119.0" />
+      <Label layoutX="454.0" layoutY="102.0" text="nome" />
+   </children>
+</AnchorPane>

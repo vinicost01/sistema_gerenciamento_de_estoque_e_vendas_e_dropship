@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="273.0" prefWidth="454.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="v.sistema_1.menucontroller">
+   <children>
+      <Button layoutX="40.0" layoutY="181.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#cdp" prefHeight="25.0" prefWidth="223.0" text="apenas cadastrar" />
+      <Button layoutX="40.0" layoutY="119.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#verp" prefHeight="38.0" prefWidth="223.0" text="ver/editar/add/remover ">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button layoutX="299.0" layoutY="138.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#finan" prefHeight="52.0" prefWidth="120.0" text="financeiro" />
+      <MenuBar prefHeight="25.0" prefWidth="454.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="configurações">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#cfg" text="conectar banco de dados" />
+                  <MenuItem mnemonicParsing="false" onAction="#dscdb" text="desconectar banco de dados" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="ajuda">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#ajuda" text="sobre e como usar o sistema" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <Label layoutX="200.0" layoutY="242.0" text="©vini.cost" />
+      <Label layoutX="106.0" layoutY="74.0" text="produtos">
+         <font>
+            <Font name="Corbel Light" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
